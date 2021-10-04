@@ -5,10 +5,11 @@ public class Matriser {
 	// a)
 	public static void skrivUt(int[][] matrise) {
 
-		for (int[] i : matrise) {
-			for (int j : i) {
-				System.out.println(j + " ");
+		for (int[] rad : matrise) {
+			for (int v : rad) {
+				System.out.print(v + " ");
 			}
+			System.out.println();
 		}
 	}
 
